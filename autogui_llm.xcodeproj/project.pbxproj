@@ -15,6 +15,8 @@
 		BD5A5B3F2C63E093004B4B11 /* autogui_llmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B3E2C63E093004B4B11 /* autogui_llmTests.swift */; };
 		BD5A5B492C63E093004B4B11 /* autogui_llmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B482C63E093004B4B11 /* autogui_llmUITests.swift */; };
 		BD5A5B4B2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B4A2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift */; };
+		BD90ECE92C66894300B5AD6B /* LLM in Frameworks */ = {isa = PBXBuildFile; productRef = BD90ECE82C66894300B5AD6B /* LLM */; };
+		BD90ECEB2C66894300B5AD6B /* MNIST in Frameworks */ = {isa = PBXBuildFile; productRef = BD90ECEA2C66894300B5AD6B /* MNIST */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD90ECEB2C66894300B5AD6B /* MNIST in Frameworks */,
+				BD90ECE92C66894300B5AD6B /* LLM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +152,10 @@
 			dependencies = (
 			);
 			name = autogui_llm;
+			packageProductDependencies = (
+				BD90ECE82C66894300B5AD6B /* LLM */,
+				BD90ECEA2C66894300B5AD6B /* MNIST */,
+			);
 			productName = autogui_llm;
 			productReference = BD5A5B272C63E092004B4B11 /* autogui_llm.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +228,9 @@
 				Base,
 			);
 			mainGroup = BD5A5B1E2C63E092004B4B11;
+			packageReferences = (
+				BD90ECE72C66894300B5AD6B /* XCRemoteSwiftPackageReference "mlx-swift-examples" */,
+			);
 			productRefGroup = BD5A5B282C63E092004B4B11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +609,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD90ECE72C66894300B5AD6B /* XCRemoteSwiftPackageReference "mlx-swift-examples" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-examples/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD90ECE82C66894300B5AD6B /* LLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD90ECE72C66894300B5AD6B /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = LLM;
+		};
+		BD90ECEA2C66894300B5AD6B /* MNIST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD90ECE72C66894300B5AD6B /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MNIST;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD5A5B1F2C63E092004B4B11 /* Project object */;
 }
