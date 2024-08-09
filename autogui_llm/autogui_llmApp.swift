@@ -8,10 +8,19 @@
 import SwiftUI
 
 @main
+//struct autogui_llmApp: App {
+//    var body: some Scene {
+//        DocumentGroup(newDocument: autogui_llmDocument()) { file in
+//            ContentView(document: file.$document)
+//        }
+//    }
+//}
+
 struct autogui_llmApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: autogui_llmDocument()) { file in
-            ContentView(document: file.$document)
+        WindowGroup {
+            ContentView()
+                .environment(DeviceStat())
         }
     }
 }
