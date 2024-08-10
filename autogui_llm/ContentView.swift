@@ -188,7 +188,8 @@ class LLMEvaluator {
 
     /// this controls which model loads -- phi4bit is one of the smaller ones so this will fit on
     /// more devices
-    let modelConfiguration = ModelConfiguration.gemma2bQuantized
+    //let modelConfiguration = ModelConfiguration.gemma2bQuantized // 内存不够报错了 => 为什么local chat不会报错？
+    let modelConfiguration = ModelConfiguration.phi4bit // 成功了！yes！
 
     /// parameters controlling the output
     let generateParameters = GenerateParameters(temperature: 0.6)
