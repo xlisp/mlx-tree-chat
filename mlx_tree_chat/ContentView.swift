@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  autogui_llm
+//  mlx_tree_chat
 //
 //  Created by emacspy on 2024/8/8.
 //
@@ -17,7 +17,7 @@ import MLXMNIST  // 难道改名了？
 
 //
 //struct ContentView: View {
-//    @Binding var document: autogui_llmDocument
+//    @Binding var document: mlx_tree_chatDocument
 //
 //    var body: some View {
 //        TextEditor(text: $document.text)
@@ -25,7 +25,7 @@ import MLXMNIST  // 难道改名了？
 //}
 //
 //#Preview {
-//    ContentView(document: .constant(autogui_llmDocument()))
+//    ContentView(document: .constant(mlx_tree_chatDocument()))
 //}
 
 // Copyright © 2024 Apple Inc.

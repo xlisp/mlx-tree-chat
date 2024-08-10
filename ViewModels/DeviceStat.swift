@@ -1,6 +1,6 @@
 //
 //  DeviceStat.swift
-//  autogui_llm
+//  mlx_tree_chat
 //
 //  Created by emacspy on 2024/8/10.
 //

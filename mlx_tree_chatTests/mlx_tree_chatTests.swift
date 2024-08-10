@@ -1,14 +1,14 @@
 //
-//  autogui_llmTests.swift
-//  autogui_llmTests
+//  mlx_tree_chatTests.swift
+//  mlx_tree_chatTests
 //
 //  Created by emacspy on 2024/8/8.
 //
 
 import XCTest
-@testable import autogui_llm
+@testable import mlx_tree_chat
 
-final class autogui_llmTests: XCTestCase {
+final class mlx_tree_chatTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

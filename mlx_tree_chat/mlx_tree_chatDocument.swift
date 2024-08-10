@@ -1,6 +1,6 @@
 //
-//  autogui_llmDocument.swift
-//  autogui_llm
+//  mlx_tree_chatDocument.swift
+//  mlx_tree_chat
 //
 //  Created by emacspy on 2024/8/8.
 //
@@ -14,7 +14,7 @@ extension UTType {
     }
 }
 
-struct autogui_llmDocument: FileDocument {
+struct mlx_tree_chatDocument: FileDocument {
     var text: String
 
     init(text: String = "Hello, world!") {

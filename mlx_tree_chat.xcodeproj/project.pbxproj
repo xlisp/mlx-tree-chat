@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD5A5B2B2C63E092004B4B11 /* autogui_llmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B2A2C63E092004B4B11 /* autogui_llmApp.swift */; };
-		BD5A5B2D2C63E092004B4B11 /* autogui_llmDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B2C2C63E092004B4B11 /* autogui_llmDocument.swift */; };
+		BD5A5B2B2C63E092004B4B11 /* mlx_tree_chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B2A2C63E092004B4B11 /* mlx_tree_chatApp.swift */; };
+		BD5A5B2D2C63E092004B4B11 /* mlx_tree_chatDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B2C2C63E092004B4B11 /* mlx_tree_chatDocument.swift */; };
 		BD5A5B2F2C63E092004B4B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B2E2C63E092004B4B11 /* ContentView.swift */; };
 		BD5A5B312C63E093004B4B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5A5B302C63E093004B4B11 /* Assets.xcassets */; };
 		BD5A5B342C63E093004B4B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5A5B332C63E093004B4B11 /* Preview Assets.xcassets */; };
-		BD5A5B3F2C63E093004B4B11 /* autogui_llmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B3E2C63E093004B4B11 /* autogui_llmTests.swift */; };
-		BD5A5B492C63E093004B4B11 /* autogui_llmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B482C63E093004B4B11 /* autogui_llmUITests.swift */; };
-		BD5A5B4B2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B4A2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift */; };
+		BD5A5B3F2C63E093004B4B11 /* mlx_tree_chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B3E2C63E093004B4B11 /* mlx_tree_chatTests.swift */; };
+		BD5A5B492C63E093004B4B11 /* mlx_tree_chatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B482C63E093004B4B11 /* mlx_tree_chatUITests.swift */; };
+		BD5A5B4B2C63E094004B4B11 /* mlx_tree_chatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A5B4A2C63E094004B4B11 /* mlx_tree_chatUITestsLaunchTests.swift */; };
 		BD90ECE92C66894300B5AD6B /* LLM in Frameworks */ = {isa = PBXBuildFile; productRef = BD90ECE82C66894300B5AD6B /* LLM */; };
 		BD90ECEB2C66894300B5AD6B /* MNIST in Frameworks */ = {isa = PBXBuildFile; productRef = BD90ECEA2C66894300B5AD6B /* MNIST */; };
 		BDB318032C668F6700498C3B /* DeviceStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB318022C668F6700498C3B /* DeviceStat.swift */; };
@@ -26,30 +26,30 @@
 			containerPortal = BD5A5B1F2C63E092004B4B11 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BD5A5B262C63E092004B4B11;
-			remoteInfo = autogui_llm;
+			remoteInfo = mlx_tree_chat;
 		};
 		BD5A5B452C63E093004B4B11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BD5A5B1F2C63E092004B4B11 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BD5A5B262C63E092004B4B11;
-			remoteInfo = autogui_llm;
+			remoteInfo = mlx_tree_chat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD5A5B272C63E092004B4B11 /* autogui_llm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autogui_llm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5A5B2A2C63E092004B4B11 /* autogui_llmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autogui_llmApp.swift; sourceTree = "<group>"; };
-		BD5A5B2C2C63E092004B4B11 /* autogui_llmDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autogui_llmDocument.swift; sourceTree = "<group>"; };
+		BD5A5B272C63E092004B4B11 /* mlx_tree_chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlx_tree_chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5A5B2A2C63E092004B4B11 /* mlx_tree_chatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlx_tree_chatApp.swift; sourceTree = "<group>"; };
+		BD5A5B2C2C63E092004B4B11 /* mlx_tree_chatDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlx_tree_chatDocument.swift; sourceTree = "<group>"; };
 		BD5A5B2E2C63E092004B4B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD5A5B302C63E093004B4B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5A5B332C63E093004B4B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD5A5B352C63E093004B4B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD5A5B3A2C63E093004B4B11 /* autogui_llmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autogui_llmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5A5B3E2C63E093004B4B11 /* autogui_llmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autogui_llmTests.swift; sourceTree = "<group>"; };
-		BD5A5B442C63E093004B4B11 /* autogui_llmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autogui_llmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5A5B482C63E093004B4B11 /* autogui_llmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autogui_llmUITests.swift; sourceTree = "<group>"; };
-		BD5A5B4A2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autogui_llmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD5A5B3A2C63E093004B4B11 /* mlx_tree_chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlx_tree_chatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5A5B3E2C63E093004B4B11 /* mlx_tree_chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlx_tree_chatTests.swift; sourceTree = "<group>"; };
+		BD5A5B442C63E093004B4B11 /* mlx_tree_chatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlx_tree_chatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5A5B482C63E093004B4B11 /* mlx_tree_chatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlx_tree_chatUITests.swift; sourceTree = "<group>"; };
+		BD5A5B4A2C63E094004B4B11 /* mlx_tree_chatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlx_tree_chatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDB318022C668F6700498C3B /* DeviceStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				BDB318012C668F5B00498C3B /* ViewModels */,
-				BD5A5B292C63E092004B4B11 /* autogui_llm */,
-				BD5A5B3D2C63E093004B4B11 /* autogui_llmTests */,
-				BD5A5B472C63E093004B4B11 /* autogui_llmUITests */,
+				BD5A5B292C63E092004B4B11 /* mlx_tree_chat */,
+				BD5A5B3D2C63E093004B4B11 /* mlx_tree_chatTests */,
+				BD5A5B472C63E093004B4B11 /* mlx_tree_chatUITests */,
 				BD5A5B282C63E092004B4B11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,24 +94,24 @@
 		BD5A5B282C63E092004B4B11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD5A5B272C63E092004B4B11 /* autogui_llm.app */,
-				BD5A5B3A2C63E093004B4B11 /* autogui_llmTests.xctest */,
-				BD5A5B442C63E093004B4B11 /* autogui_llmUITests.xctest */,
+				BD5A5B272C63E092004B4B11 /* mlx_tree_chat.app */,
+				BD5A5B3A2C63E093004B4B11 /* mlx_tree_chatTests.xctest */,
+				BD5A5B442C63E093004B4B11 /* mlx_tree_chatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD5A5B292C63E092004B4B11 /* autogui_llm */ = {
+		BD5A5B292C63E092004B4B11 /* mlx_tree_chat */ = {
 			isa = PBXGroup;
 			children = (
-				BD5A5B2A2C63E092004B4B11 /* autogui_llmApp.swift */,
-				BD5A5B2C2C63E092004B4B11 /* autogui_llmDocument.swift */,
+				BD5A5B2A2C63E092004B4B11 /* mlx_tree_chatApp.swift */,
+				BD5A5B2C2C63E092004B4B11 /* mlx_tree_chatDocument.swift */,
 				BD5A5B2E2C63E092004B4B11 /* ContentView.swift */,
 				BD5A5B302C63E093004B4B11 /* Assets.xcassets */,
 				BD5A5B352C63E093004B4B11 /* Info.plist */,
 				BD5A5B322C63E093004B4B11 /* Preview Content */,
 			);
-			path = autogui_llm;
+			path = mlx_tree_chat;
 			sourceTree = "<group>";
 		};
 		BD5A5B322C63E093004B4B11 /* Preview Content */ = {
@@ -122,21 +122,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BD5A5B3D2C63E093004B4B11 /* autogui_llmTests */ = {
+		BD5A5B3D2C63E093004B4B11 /* mlx_tree_chatTests */ = {
 			isa = PBXGroup;
 			children = (
-				BD5A5B3E2C63E093004B4B11 /* autogui_llmTests.swift */,
+				BD5A5B3E2C63E093004B4B11 /* mlx_tree_chatTests.swift */,
 			);
-			path = autogui_llmTests;
+			path = mlx_tree_chatTests;
 			sourceTree = "<group>";
 		};
-		BD5A5B472C63E093004B4B11 /* autogui_llmUITests */ = {
+		BD5A5B472C63E093004B4B11 /* mlx_tree_chatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BD5A5B482C63E093004B4B11 /* autogui_llmUITests.swift */,
-				BD5A5B4A2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift */,
+				BD5A5B482C63E093004B4B11 /* mlx_tree_chatUITests.swift */,
+				BD5A5B4A2C63E094004B4B11 /* mlx_tree_chatUITestsLaunchTests.swift */,
 			);
-			path = autogui_llmUITests;
+			path = mlx_tree_chatUITests;
 			sourceTree = "<group>";
 		};
 		BDB318012C668F5B00498C3B /* ViewModels */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD5A5B262C63E092004B4B11 /* autogui_llm */ = {
+		BD5A5B262C63E092004B4B11 /* mlx_tree_chat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD5A5B4E2C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llm" */;
+			buildConfigurationList = BD5A5B4E2C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chat" */;
 			buildPhases = (
 				BD5A5B232C63E092004B4B11 /* Sources */,
 				BD5A5B242C63E092004B4B11 /* Frameworks */,
@@ -162,18 +162,18 @@
 			);
 			dependencies = (
 			);
-			name = autogui_llm;
+			name = mlx_tree_chat;
 			packageProductDependencies = (
 				BD90ECE82C66894300B5AD6B /* LLM */,
 				BD90ECEA2C66894300B5AD6B /* MNIST */,
 			);
-			productName = autogui_llm;
-			productReference = BD5A5B272C63E092004B4B11 /* autogui_llm.app */;
+			productName = mlx_tree_chat;
+			productReference = BD5A5B272C63E092004B4B11 /* mlx_tree_chat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD5A5B392C63E093004B4B11 /* autogui_llmTests */ = {
+		BD5A5B392C63E093004B4B11 /* mlx_tree_chatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD5A5B512C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llmTests" */;
+			buildConfigurationList = BD5A5B512C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chatTests" */;
 			buildPhases = (
 				BD5A5B362C63E093004B4B11 /* Sources */,
 				BD5A5B372C63E093004B4B11 /* Frameworks */,
@@ -184,14 +184,14 @@
 			dependencies = (
 				BD5A5B3C2C63E093004B4B11 /* PBXTargetDependency */,
 			);
-			name = autogui_llmTests;
-			productName = autogui_llmTests;
-			productReference = BD5A5B3A2C63E093004B4B11 /* autogui_llmTests.xctest */;
+			name = mlx_tree_chatTests;
+			productName = mlx_tree_chatTests;
+			productReference = BD5A5B3A2C63E093004B4B11 /* mlx_tree_chatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BD5A5B432C63E093004B4B11 /* autogui_llmUITests */ = {
+		BD5A5B432C63E093004B4B11 /* mlx_tree_chatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD5A5B542C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llmUITests" */;
+			buildConfigurationList = BD5A5B542C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chatUITests" */;
 			buildPhases = (
 				BD5A5B402C63E093004B4B11 /* Sources */,
 				BD5A5B412C63E093004B4B11 /* Frameworks */,
@@ -202,9 +202,9 @@
 			dependencies = (
 				BD5A5B462C63E093004B4B11 /* PBXTargetDependency */,
 			);
-			name = autogui_llmUITests;
-			productName = autogui_llmUITests;
-			productReference = BD5A5B442C63E093004B4B11 /* autogui_llmUITests.xctest */;
+			name = mlx_tree_chatUITests;
+			productName = mlx_tree_chatUITests;
+			productReference = BD5A5B442C63E093004B4B11 /* mlx_tree_chatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD5A5B222C63E092004B4B11 /* Build configuration list for PBXProject "autogui_llm" */;
+			buildConfigurationList = BD5A5B222C63E092004B4B11 /* Build configuration list for PBXProject "mlx_tree_chat" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD5A5B262C63E092004B4B11 /* autogui_llm */,
-				BD5A5B392C63E093004B4B11 /* autogui_llmTests */,
-				BD5A5B432C63E093004B4B11 /* autogui_llmUITests */,
+				BD5A5B262C63E092004B4B11 /* mlx_tree_chat */,
+				BD5A5B392C63E093004B4B11 /* mlx_tree_chatTests */,
+				BD5A5B432C63E093004B4B11 /* mlx_tree_chatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,8 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5A5B2B2C63E092004B4B11 /* autogui_llmApp.swift in Sources */,
-				BD5A5B2D2C63E092004B4B11 /* autogui_llmDocument.swift in Sources */,
+				BD5A5B2B2C63E092004B4B11 /* mlx_tree_chatApp.swift in Sources */,
+				BD5A5B2D2C63E092004B4B11 /* mlx_tree_chatDocument.swift in Sources */,
 				BD5A5B2F2C63E092004B4B11 /* ContentView.swift in Sources */,
 				BDB318032C668F6700498C3B /* DeviceStat.swift in Sources */,
 			);
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5A5B3F2C63E093004B4B11 /* autogui_llmTests.swift in Sources */,
+				BD5A5B3F2C63E093004B4B11 /* mlx_tree_chatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5A5B492C63E093004B4B11 /* autogui_llmUITests.swift in Sources */,
-				BD5A5B4B2C63E094004B4B11 /* autogui_llmUITestsLaunchTests.swift in Sources */,
+				BD5A5B492C63E093004B4B11 /* mlx_tree_chatUITests.swift in Sources */,
+				BD5A5B4B2C63E094004B4B11 /* mlx_tree_chatUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +313,12 @@
 /* Begin PBXTargetDependency section */
 		BD5A5B3C2C63E093004B4B11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD5A5B262C63E092004B4B11 /* autogui_llm */;
+			target = BD5A5B262C63E092004B4B11 /* mlx_tree_chat */;
 			targetProxy = BD5A5B3B2C63E093004B4B11 /* PBXContainerItemProxy */;
 		};
 		BD5A5B462C63E093004B4B11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD5A5B262C63E092004B4B11 /* autogui_llm */;
+			target = BD5A5B262C63E092004B4B11 /* mlx_tree_chat */;
 			targetProxy = BD5A5B452C63E093004B4B11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,11 +450,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"autogui_llm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mlx_tree_chat/Preview Content\"";
 				DEVELOPMENT_TEAM = F274HZAT89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = autogui_llm/Info.plist;
+				INFOPLIST_FILE = mlx_tree_chat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -481,11 +481,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"autogui_llm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mlx_tree_chat/Preview Content\"";
 				DEVELOPMENT_TEAM = F274HZAT89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = autogui_llm/Info.plist;
+				INFOPLIST_FILE = mlx_tree_chat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -521,7 +521,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autogui_llm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autogui_llm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mlx_tree_chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mlx_tree_chat";
 			};
 			name = Debug;
 		};
@@ -541,7 +541,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autogui_llm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autogui_llm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mlx_tree_chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mlx_tree_chat";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = autogui_llm;
+				TEST_TARGET_NAME = mlx_tree_chat;
 			};
 			name = Debug;
 		};
@@ -577,14 +577,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = autogui_llm;
+				TEST_TARGET_NAME = mlx_tree_chat;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD5A5B222C63E092004B4B11 /* Build configuration list for PBXProject "autogui_llm" */ = {
+		BD5A5B222C63E092004B4B11 /* Build configuration list for PBXProject "mlx_tree_chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD5A5B4C2C63E094004B4B11 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD5A5B4E2C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llm" */ = {
+		BD5A5B4E2C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD5A5B4F2C63E094004B4B11 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD5A5B512C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llmTests" */ = {
+		BD5A5B512C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD5A5B522C63E094004B4B11 /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD5A5B542C63E094004B4B11 /* Build configuration list for PBXNativeTarget "autogui_llmUITests" */ = {
+		BD5A5B542C63E094004B4B11 /* Build configuration list for PBXNativeTarget "mlx_tree_chatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD5A5B552C63E094004B4B11 /* Debug */,

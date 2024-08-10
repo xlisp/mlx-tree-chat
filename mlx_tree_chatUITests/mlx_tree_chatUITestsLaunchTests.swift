@@ -1,13 +1,13 @@
 //
-//  autogui_llmUITestsLaunchTests.swift
-//  autogui_llmUITests
+//  mlx_tree_chatUITestsLaunchTests.swift
+//  mlx_tree_chatUITests
 //
 //  Created by emacspy on 2024/8/8.
 //
 
 import XCTest
 
-final class autogui_llmUITestsLaunchTests: XCTestCase {
+final class mlx_tree_chatUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

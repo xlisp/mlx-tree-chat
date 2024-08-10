@@ -1,6 +1,6 @@
 //
-//  autogui_llmApp.swift
-//  autogui_llm
+//  mlx_tree_chatApp.swift
+//  mlx_tree_chat
 //
 //  Created by emacspy on 2024/8/8.
 //
@@ -8,15 +8,15 @@
 import SwiftUI
 
 @main
-//struct autogui_llmApp: App {
+//struct mlx_tree_chatApp: App {
 //    var body: some Scene {
-//        DocumentGroup(newDocument: autogui_llmDocument()) { file in
+//        DocumentGroup(newDocument: mlx_tree_chatDocument()) { file in
 //            ContentView(document: file.$document)
 //        }
 //    }
 //}
 
-struct autogui_llmApp: App {
+struct mlx_tree_chatApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
