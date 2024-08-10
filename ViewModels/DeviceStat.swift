@@ -6,9 +6,6 @@
 //
 
 import Foundation
-
-//  LLMEval  main @ cat ViewModels/DeviceStat.swift
-
 import MLXLLM
 import MLX
 

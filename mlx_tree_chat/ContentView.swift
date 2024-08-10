@@ -6,39 +6,19 @@
 //
 
 import SwiftUI
-// import LLM // 只是add .package(url: "https://github.com/ml-explore/mlx-swift-examples/", branch: "main"), 都不行。。。
-import MLXLLM // 难道改名 => 估计是。。
+import MLXLLM
 import MLX
 import MLXRandom
 import Metal
 import SwiftUI
 import Tokenizers
-import MLXMNIST  // 难道改名了？
-
-//
-//struct ContentView: View {
-//    @Binding var document: mlx_tree_chatDocument
-//
-//    var body: some View {
-//        TextEditor(text: $document.text)
-//    }
-//}
-//
-//#Preview {
-//    ContentView(document: .constant(mlx_tree_chatDocument()))
-//}
-
-// Copyright © 2024 Apple Inc.
+import MLXMNIST
 
 struct ContentView: View {
 
     @State var prompt = ""
     
     @State var llm = LLMEvaluator()
-//    @State private lazy var llm: LLMEvaluator = {
-//        LLMEvaluator()
-//    }()
-//
     
     @Environment(DeviceStat.self) private var deviceStat
 
@@ -188,8 +168,8 @@ class LLMEvaluator {
 
     /// this controls which model loads -- phi4bit is one of the smaller ones so this will fit on
     /// more devices
-    //let modelConfiguration = ModelConfiguration.gemma2bQuantized // 内存不够报错了 => 为什么local chat不会报错？
-    let modelConfiguration = ModelConfiguration.phi4bit // 成功了！yes！
+    //let modelConfiguration = ModelConfiguration.gemma2bQuantized // iPhone 12 hav less memory
+    let modelConfiguration = ModelConfiguration.phi4bit // success in iPhone 12
 
     /// parameters controlling the output
     let generateParameters = GenerateParameters(temperature: 0.6)
